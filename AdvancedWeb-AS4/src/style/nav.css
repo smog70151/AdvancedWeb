@@ -1,0 +1,9 @@
+#userName{
+    display: inline-block;
+}
+
+#userPhoto{
+    border-radius: 30px;
+    height: 30px;
+    margin: 5px;
+}

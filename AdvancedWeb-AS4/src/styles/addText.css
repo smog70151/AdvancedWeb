@@ -1,0 +1,123 @@
+* {
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+    position: relative;
+}
+body,html {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.editor-container {
+    margin-top: 15px;
+    width: 1003px!important;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    padding-bottom: 15px;
+}
+
+.btn-bar {
+    margin: 25px 0!important;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.25);
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+.btn-bar .btn {
+    margin: 0 5px;
+}
+
+.btn-bar h2 {
+    margin: 0;
+}
+
+
+/* caption */
+
+.caption-area {
+    width: calc(40% - 15px);
+    display: inline-block;
+}
+
+.new-line-box {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.new-line-box textarea {
+    vertical-align: middle;
+    resize: none;
+    width: calc(100% - 50px);
+    height: 45px;
+}
+.new-line-box button {
+    vertical-align: middle;
+    top: 0;
+    height: 45px;
+    width: 45px;
+}
+
+.line-editor {
+    height: 480px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: solid 1px rgba(0, 0, 0, 0.25); 
+}
+
+#highlight{
+    background-color: red;
+}
+
+#normal{
+    background-color: aquamarine;
+}
+
+.line-container {
+    vertical-align: middle;
+    margin: 15px 0;
+}
+.time-label {
+    display: inline-block;
+    width: 45px;
+    vertical-align: top;
+}
+.time-label .time {
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+    border: none;
+}
+.line-box {
+    height: 52px;
+    width:calc(100% - 60px);
+    display: inline-block;
+    border: none;
+}
+.line-box textarea {
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+.add-line, .kill-line {
+    position: absolute;
+    right: 0;
+    font-size: 5px;
+    width: 24px; height: 24px;
+}
+.add-line {
+    top: 0;
+}
+.kill-line {
+    bottom: 0;
+}
+
+/* player */
+
+.player {
+    display: inline-block;
+    vertical-align: top;
+}
+/* .player #player-container {
+    width: 100%;
+    height: 346px;
+    background-color: #333;
+} */

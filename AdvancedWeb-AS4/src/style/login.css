@@ -1,0 +1,72 @@
+body {
+    background-color: #f7f7f7!important;
+    background-image: url("../imgs/bgImg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.panel-login {
+	border-color: #ccc;
+
+	-webkit-box-shadow: 0 1px 14px 3px rgba(0,0,0,.05)!important;
+	-moz-box-shadow: 0 1px 14px 3px rgba(0,0,0,.05)!important;
+	box-shadow: 0 1px 14px 3px rgba(0,0,0,.05)!important;
+}
+.panel-login>.panel-heading {
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;color: #666;
+	font-weight: bold;
+	font-size: 15px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-body {
+    padding-bottom: 25px!important;
+}
+
+.btn-facebook {
+	color: #fff;
+	background-color: #3b5998;
+    text-align: center!important;
+    letter-spacing: 1.6px;
+	border-color: rgba(0,0,0,0.2);
+    font-family: 微軟正黑體;
+}
+.fb-login-button:hover{
+    background-color: #2d4373;
+    color: #fff!important;
+}
+
+/* Navbar */
+.navbar{
+  margin-bottom: 0px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > .active{
+  background: white ;
+  border-bottom: 3px solid greenyellow;
+}
+
+.navbar-brand{
+  position: absolute;
+  left:45%;
+  font-size: 30px;
+}
+
+/* Login Form */
+.LoginFB {
+  padding-top: 10rem !important;
+}

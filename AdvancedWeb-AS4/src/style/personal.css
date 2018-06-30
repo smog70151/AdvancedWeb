@@ -1,0 +1,33 @@
+/* personal card */
+.card {
+    text-align: center;
+    margin-top: 45px;
+}
+.head {
+    width: 150px;
+    height: 150px;
+    border: solid 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.status span {
+    border-right: solid 1px #939393;
+    letter-spacing: 1.2px;
+    padding: 0 1em;
+    color: #939393;
+}
+.status span:last-of-type {
+    border: none;
+}
+.about p {
+    width: 480px;
+    letter-spacing: 1.6px;
+    line-height: 1.6em;
+    font-family: 微軟正黑體;
+    margin: 15px auto;
+}
+
+.books {
+    margin-top: 70px;
+}
+

@@ -1,0 +1,29 @@
+
+.header {
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  margin-top: 4%;
+}
+
+#headerIMG {
+  display: block;
+  margin: 0 auto;
+  position: block;
+  width: 50%;
+  border-radius: 5rem;
+}
+
+.formText {
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+#inputURL {
+  width: 50%;
+}

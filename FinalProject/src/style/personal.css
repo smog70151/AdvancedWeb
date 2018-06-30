@@ -1,0 +1,81 @@
+* {
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+h3{
+    color: black;
+}
+.selling {
+    margin-top: 65px;
+}
+.thumbnail{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24);
+}
+.thumbnail .book_img {
+    overflow: hidden;
+    height: 250px;
+}
+.book_img img {
+    height: 100%;
+    position: relative;
+    left: 10%;
+}
+.book_info .tags_container {
+    margin-top: 45px;
+    height: 70px;
+}
+.book_info .tags_container .tag {
+    display: inline-block;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin: 0 2px;
+}
+
+.tags_container .sub_tag {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+}
+.tags_container .pro_tag {
+    background-image: radial-gradient(circle 248px at center, #f78ca0 0%, #f9748f 47%, #fd868c 100%);
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+}
+.book{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.price {
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.price p {
+    margin: 0;
+    font-size: 18px;
+    color: #17c6cf;
+    font-weight: 700;
+}
+
+.selling, .sold {
+    margin-top: 70px;
+}
+
+.selling p,
+.sold p{
+    margin: 40px;
+    font-size: 24px;
+}
+
+.selling button,
+.sold button{
+   display: block;
+   margin-bottom: 20px;
+   background: #17c6cf;
+   font-size: 30px;
+   border-radius: 6px;
+   border-width: 0px;
+}
